@@ -1,8 +1,7 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: jenkins-java-demo
-  namespace: default=
 spec:
   replicas: 2
   selector:
